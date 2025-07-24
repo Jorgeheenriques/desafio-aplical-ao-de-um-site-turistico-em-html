@@ -1,0 +1,12 @@
+body{
+    background-image: url();
+    background-size: cover;
+}
+#page {
+    box-sizing: border-box;
+    width: 1200px;
+    padding: 28px;
+    background-color: rgb(245, 239, 227);
+    border-radius: 24px;
+    margin: 48px auto;
+}
