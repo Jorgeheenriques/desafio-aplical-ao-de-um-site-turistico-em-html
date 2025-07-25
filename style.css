@@ -1,12 +1,139 @@
-body{
-    background-image: url();
+:root {
+    font-family: "Open Sans", sans-serif;
+    line-height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 28px;
+}
+
+body {
+    background-color: #fafafa;
+    color: #6e5e39;
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
 }
-#page {
-    box-sizing: border-box;
-    width: 1200px;
-    padding: 28px;
-    background-color: rgb(245, 239, 227);
-    border-radius: 24px;
-    margin: 48px auto;
+
+img {
+    width: 100%;
+}
+
+.busan {
+    width: 1280px;
+    height: 660px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 48px 80px;
+    width: 1280px;
+    margin: 0 auto;
+
+    padding-top: 48px;
+    padding: 65px auto;
+    align-items: center;
+}
+
+.divider40 {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    background-color: #d9d9d9;
+}
+.divider40i {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;    
+}
+
+.divider64 {
+    width: 100%;
+    height: 1px;
+    margin: 64px 0;
+    background-color: #d9d9d9;
+}
+.divider64i {
+    width: 100%;
+    height: 1px;
+    margin: 64px 0;
+}
+
+.divider48 {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    background-color: #d9d9d9;
+}
+.divider48i {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+}
+
+.space-40 {
+    padding: 40px;
+}
+
+.legend {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+/*.text-left {
+    text-align: left;
+    font-size: 20px;
+}*/
+
+.subtitle {
+    text-align: left;
+    font-size: 16px;
+}
+
+.interest {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(177, 68, 68);
+}
+
+.list-h {
+    font-weight: bold;
+    color: #0c51a7;
+}
+
+.list-c {
+    font-weight: bold;
+    color: #591b98;
+}
+
+.list-f {
+    font-weight: bold;
+    color: #e5245e
+}
+
+.list-o {
+    font-weight: bold;
+    color: #e95e10;
+}
+footer {
+    text-align: center;
 }
